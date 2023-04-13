@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <title>Internet</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="icon" href="../img/newbongman.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSlczl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            background-color: rgb(51, 49, 49);
+        }
+
+        h1 {
+            color: rgb(164, 134, 134);
+            margin-left: 20px;
+        }
+
+        h3 {
+            margin-left: 20px;
+        }
+
+        hr {
+            border-color: white;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+
+        .img {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
+        .increase-font-size {
+        font-size: 20px; /* 변경할 글자크기 */
+       }
+       table {
+      width: 800px;
+     }
+    </style>
+</head>
+
+<body style="background-color: rgb(51, 49, 49)">
+    <br>
+    <h1>Table</h1>
+    <h3>참조 => <a href="https://arang95.tistory.com/84" style="color: red;">https://arang95.tistory.com/84</a></h3>
+    <hr>
+    <br>
+    <h2 style="margin-bottom: 30px;">&lt;table&gt;로 표만들기</h2>
+    <hr>
+    <p class="increase-font-size">
+    &nbsp;- 표 또는 테이블은 시각적 의사소통과 자료의 정렬 양식이다.<br>
+    <ol class="increase-font-size">
+        
+        <li>행 : 가로 방향. 유의어로 데이터베이스의 레코드, 튜플, 벡터 등이 있다.</li>
+        <li>열 : 세로 방향. 유의어로 데이터베이스의 필드, 매개변수, 속성</li>
+        <li>행과 열의 교차점은 칸 또는 셀이라고 한다.</li>
+    </ol>
+    <table border="1">
+        <tr>
+            <td>&lt;table&gt;</td><td>표전체를 담는 컨테이너</td>
+        </tr>
+        <tr>
+            <td>&lt;caption&gt;</td><td>표 제목</td>
+        </tr>            
+        <tr>
+            <td>&lt;thead&gt;</td><td>헤딩 셀 그룹</td>
+        </tr>                        
+        <tr>
+            <td>&lt;tfoot&gt;</td><td>바닥 셀 그룹</td>
+        </tr>
+        <tr>
+            <td>&lt;tbody&gt;</td><td>데이터 셀 그룹</td>
+        </tr>            
+        <tr>
+            <td>&lt;tr&gt;</td><td>행, 여러 td, th 포함</td>
+        </tr>            
+        <tr>
+            <td>&lt;th&gt;</td><td>열 제목 셀</td>
+        </tr>
+        <tr>
+            <td>&lt;td&gt;</td><td>데이터 셀</td>
+        </tr>
+    </table>
+    </p>
+</body>
+
+</html>
